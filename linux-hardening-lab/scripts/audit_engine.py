@@ -1,9 +1,9 @@
 import paramiko
 import nmap
 import sys
-TARGET_IP = "192.168.60.128"
+TARGET_IP = "192.168.0.0" #enter IP address of the target
 SSH_PORT = 2222
-USERNAME = "sysadmin"
+USERNAME = "admin" # entre username of the target
 KEY_PATH = "/home/kali/.ssh/id_ed25519"
 SUDO_PASS = "YOUR_PASSWORD_HERE" # Required for paramiko to execute sudo
 print(f"[*] Starting Custom Security Audit on {TARGET_IP}...\n")
